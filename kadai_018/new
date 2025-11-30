@@ -20,8 +20,9 @@
     position: relative;
     width: 800px;
     height: 800px;
-    left: 233px;
+    margin: auto;
     background-color:#ffd9df;
+    bottom: 10px;
 }
 #middle-child01{
     
@@ -51,36 +52,30 @@
     background-color: #87ceeb;
 }
 #bottom{
-    position: relative;
+    display:block;
     width: 800px;
     height: 300px;
-    margin: 20px;
-    left: 222px;
+    margin: auto;
     align-items: center;
     background-color:#87ceeb;
 }
 #bottom-child01{
-    position: relative;
-    
+    left: 200px;
     width: 400px;
     height: 100px;
-    
     background-color:#e5dcf0;
 }
 #bottom-child02 {
-    position:absolute;
+    position: relative;
     left:200px;
-  
     width: 400px;
     height: 100px;
-
     background-color:#e5dcf0;
 
 }
 #bottom-child03 {
-    position: absolute;
+    position: relative;
     left: 400px;
-    top: 200px;
     width: 400px;
     height: 100px;
     background-color:#e5dcf0;
